@@ -1,0 +1,21 @@
+- Components:
+  - Header
+    - Logo
+    - Navigation
+    
+  - Layout
+    - InfoBox
+    - PresentBox
+    - Carrousel ( Receives an array of the last 5 n news and events  )
+    - FavoriteIdol ( Receives the user favorite idol and pick random images from here )
+
+    - MainContent
+      - Menu ( Receives an array of items  )
+      - CommentBox ( Receives the comments of themuser  )
+        - Avatar ( render the user avatar  )
+        - Comment (
+            user: name, comments
+            comment: date, description, liked, likes, 
+          )
+    
+    - FollowBox

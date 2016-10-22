@@ -1,0 +1,51 @@
+@import './normalize.styl'
+@import './reset.styl'
+
+.border
+  border 1px solid red
+
+.Container
+  height 100%
+  background-color darkred
+
+.Header
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+.Layout
+  background-color: #ff8c00;
+  display: flex;
+
+  &-left
+    background-color golden
+    width 60%
+  
+  &-right
+    background-color hotpink
+  
+
+.Logo
+  background-color skyblue
+
+  &-title
+    font-size: 1.3em;
+    color: red;
+
+.Navigation
+  background-color lightgreen 
+
+  &-list
+    display: flex;
+  
+  &-item
+    flex-grow: 1;
+    text-align: center;
+    background: green;
+  
+  &-link
+    color: black;
+    background: darkorange;
+    padding: 1em;
+    display: block;

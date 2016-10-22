@@ -1,0 +1,72 @@
+element -> normal tag
+.someClass -> class
+#someId -> id
+
+- #container .Container
+
+  - #header-container .Header
+    - .Logo
+      - h1.Logo-title
+
+    - nav.Navigation
+      - ul.Navigation-list
+        - .li.Navigation-item
+          - a.Navigation-link
+  
+  - section#layout-container .Layout
+    
+    - section.Layout-left
+
+      - div.Layout-info
+
+        - div.Layout-infoBoxContainer
+          - div.InfoBox
+            - h2.InfoBox
+            - div.InfoBox-infoContainer
+              - p.InfoBox-info
+              
+        - div.Layout-presentBoxContainer
+          - div.PresentBox
+            - img.PresentBox-image
+
+      - div.Layout-sliderContainer
+        - .Slider
+
+      - .Main
+
+        - .Main-menuContainer
+          - ul.Menu
+            - li.Menu-item
+              - a.Menu-link
+
+        - section.Main-commentsContainer
+
+          - div.CommentBox
+
+            - div.CommentBox-avatarContainer
+              - div.Avatar
+                - img.Avatar-image
+
+            - div.CommentBox-commentContainer
+
+              - div.Comment
+                - span.Comment-date
+                - span.Comment-user
+                - p.Comment-content
+                - div.Comment-commentInfoContainer
+
+                  - ul.Comment-details .Menu
+
+  - section.Layout-right
+
+    - div.Layout-favoriteContainer
+      - div.FavoriteIdol
+        - img.FavoriteIdol
+
+    - div.Layout-followBoxContainer
+      - div.FollowBox
+        - a.FollowBox-link
+        - .PresentBox
+          
+
+

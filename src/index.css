@@ -1,0 +1,426 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+template,
+[hidden] {
+  display: none;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+optgroup {
+  font-weight: bold;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+html,
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.link {
+  color: #e6006f;
+}
+.line {
+  display: inline-block;
+  vertical-align: middle;
+}
+.Header {
+  background-color: #e6006f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo {
+  margin-left: 2em;
+}
+.Logo-title {
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: normal;
+}
+.Navigation-list {
+  display: flex;
+  align-items: center;
+}
+.Navigation-item {
+  flex-grow: 1;
+  text-align: center;
+}
+.Navigation-link {
+  color: #fff;
+  padding: 1em 0;
+  display: block;
+  font-size: 0.9em;
+}
+.Navigation-itemAvatar {
+  width: 10%;
+}
+.Navigation-itemAvatarLink {
+  display: flex;
+  align-items: center;
+}
+.Navigation-avatarContainer {
+  width: 25%;
+  min-width: 25%;
+}
+.Navigation-button {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+.Avatar {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.2em;
+}
+.Avatar-image {
+  width: 100%;
+}
+.Avatar-username {
+  margin-left: 0.5em;
+  width: 75%;
+}
+.Layout {
+  display: flex;
+}
+.Layout-left {
+  width: 60%;
+}
+.Layout-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5em auto;
+  width: 90%;
+}
+.Layout-infoBoxContainer {
+  width: 45%;
+}
+.Layout-presentBoxContainer {
+  width: 26%;
+}
+.Layout-sliderContainer {
+  width: 80%;
+  margin: 1.5em auto;
+}
+.Layout-right {
+  width: 40%;
+  background-color: #ff69b4;
+}
+.InfoBox {
+  background-color: #fff;
+}
+.InfoBox-title {
+  background-color: #e6006f;
+  padding: 0.5em;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2em;
+}
+.InfoBox-infoContainer {
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+.InfoBox-info {
+  text-align: center;
+  width: 80%;
+  font-size: 1em;
+}
+.InfoBox-text {
+  text-align: center;
+  font-size: 1.2em;
+}
+.InfoBox-producers {
+  width: 10%;
+}
+.InfoBox-image {
+  width: 100%;
+}
+.PresentBox-info {
+  width: 100%;
+}
+.Slider {
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.Slider-placeholderImage {
+  width: 100%;
+}
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+.border {
+  border: 1px solid #f00;
+}
+.Container {
+  background-color: #8b0000;
+}
+.Container-navigationContainer {
+  width: 60%;
+}
+.Main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  background-color: #fff;
+}
+.Menu {
+  display: flex;
+  background-color: #ff3396;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.Menu-item {
+  flex-grow: 1;
+}
+.Menu-item:hover {
+  background-color: #e6006f;
+}
+.Menu-link {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.CommentMenu {
+  display: flex;
+  background-color: transparent;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.CommentMenu-item {
+  flex-grow: 1;
+}
+.CommentMenu-link {
+  color: #d3d3d3;
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.CommentBox {
+  display: flex;
+  padding: 1em 0;
+  border-bottom: 1px dashed #808080;
+  align-items: start;
+}
+.CommentBox-avatarContainer {
+  width: 15%;
+  min-width: 15%;
+  margin-right: 1.5em;
+}
+.Avatar {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.2em;
+  border-radius: 50%;
+}
+-image {
+  width: 100%;
+}
+.Comment {
+  font-size: 0.9em;
+}
+.Comment-date {
+  display: block;
+  color: #d3d3d3;
+}
+.Comment-user {
+  font-weight: bold;
+}
+.Comment-content {
+  margin: 0 0 2em 0;
+}

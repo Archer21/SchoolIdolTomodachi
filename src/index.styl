@@ -13,6 +13,9 @@
 @import './styles/Components/Menu'
 @import './styles/Components/CommentBox'
 @import './styles/Components/CommentMenu'
+@import './styles/Components/Right'
+@import './styles/Components/FavoriteIdol'
+@import './styles/Components/FollowBox'
 
 body
   font-family 'Maven Pro', sans-serif
@@ -21,74 +24,10 @@ body
   border 1px solid red
 
 .Container
-  background-color darkred
+  background-image url('./../assets/background-winter.png')
+  background-repeat no-repeat
+  background-size cover
+  background-position 50%
   
   &-navigationContainer
     width 60%
-
-
-.Right
-  position fixed
-  width 40%
-  height 100%
-  bottom 0
-  right 0
-
-  &-favoriteIdolContainer
-    height: 100%;
-    max-width: 85%;
-    max-height: 100%;
-    margin: 0 auto;
-  
-  &-followBoxContainer
-    width: 70%;
-    margin: 0 auto;
-    position: relative;
-    bottom: 25%;
-    border-radius: .5em;
-    overflow: hidden;
-
-.FavoriteIdol
-  background-image: url("./../assets/maki2Cover.png");
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: 150%;
-  background-position: left 10px bottom 10%;
-  background-position-x: 50%;
-
-.FollowBox
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  padding: 1em;
-
-  &-link
-    font-size: 1.3em;
-    text-align: center;
-  
-  
-  
-
-
-
-// div.cover {
-//   position fixed 
-//   top -50% 
-//   left -50% 
-//   width 200% 
-//   height 200%
-// }
-
-// img.cover {
-//   position absolute 
-//   top 0 
-//   left 0 
-//   right 0 
-//   bottom 0 
-//   margin auto 
-//   min-width 50%
-//   min-height 50%
-//   overflow-x hidden
-// }
-
-

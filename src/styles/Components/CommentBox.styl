@@ -1,8 +1,11 @@
 .CommentBox
   display flex
   padding 1em 0
-  border-bottom 1px dashed gray
   align-items start
+
+  &:not(:last-child)
+    border-bottom 1px dashed gray
+    
 
   &-avatarContainer
     width 15%

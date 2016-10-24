@@ -9,6 +9,10 @@
 @import './styles/Components/InfoBox'
 @import './styles/Components/PresentBox'
 @import './styles/Components/Slider'
+@import './styles/Components/Main'
+@import './styles/Components/Menu'
+@import './styles/Components/CommentBox'
+@import './styles/Components/CommentMenu'
 
 body
   font-family 'Maven Pro', sans-serif
@@ -23,75 +27,29 @@ body
     width 60%
 
 
-.Main
-  width 80%
-  margin 0 auto
-  padding 1em
-  box-sizing border-box
-  border-radius 0.5em
-  background-color white
+.FollowBox
+  background-image url('./../assets/followBackground.png')
 
 
-.Menu
-  display flex
-  background-color #ff3396
-  border-radius .5em
-  overflow hidden
-  
-  &-item
-    flex-grow 1
-  
-    &hover
-      background-color $primaryColor
-  
-  &-link
-    color white
-    display block
-    text-align center
-    padding .5em 0
+
+// div.cover {
+//   position: fixed; 
+//   top: -50%; 
+//   left: -50%; 
+//   width: 200%; 
+//   height: 200%;
+// }
+
+// img.cover {
+//   position: absolute; 
+//   top: 0; 
+//   left: 0; 
+//   right: 0; 
+//   bottom: 0; 
+//   margin: auto; 
+//   min-width: 50%;
+//   min-height: 50%;
+//   overflow-x: hidden;
+// }
 
 
-.CommentMenu
-  display flex
-  background-color transparent  
-  
-  &-link
-    color #d3d3d3
-    display block
-    text-align center
-    padding 0.5em 0
-    flex-grow 1
-
-
-.CommentBox
-  display flex
-  padding 1em 0
-  border-bottom 1px dashed gray
-  align-items start
-
-  &-avatarContainer
-    width 15%
-    min-width 15%
-    margin-right 1.5em
-
-.Avatar
-    width 100%
-    overflow hidden
-    border-radius 0.2em
-    border-radius 50%
-
-  &-image
-    width 100%
-
-.Comment
-  font-size .9em
-
-  &-date
-    display block
-    color lightgray
-
-  &-user
-    font-weight bold
-  
-  &-content
-    margin 0 0 2em 0

@@ -8,7 +8,7 @@ const Slider = require('./../../Components/Slider')
 const CommentBox = require('./../../Components/CommentBox')
 
 let el = yo`
-  <div className="Layout-leftContent">
+  <div class="Layout-leftContent">
     <div class="Layout-info">
             
       <div class="Layout-infoBoxContainer">            
@@ -27,11 +27,21 @@ let el = yo`
 
     <section id="main-content" class="Layout-mainContainer">
       <section class="Main">
-        ${CommentBox()} 
-        ${CommentBox()} 
-        ${CommentBox()} 
-        ${CommentBox()} 
-        ${CommentBox()} 
+
+        <ul class="Menu">
+          <li class="Menu-item"><a href="#" class="Menu-link">Following</a></li>
+          <li class="Menu-item"><a href="#" class="Menu-link">Hot</a></li>
+          <li class="Menu-item"><a href="#" class="Menu-link">New</a></li>
+          <li class="Menu-item"><a href="#" class="Menu-link">All</a></li>
+        </ul>
+
+        <section class="Main-commentsContainer">
+          ${CommentBox()} 
+          ${CommentBox()} 
+          ${CommentBox()} 
+          ${CommentBox()} 
+          ${CommentBox()}
+        </section> 
       </section>
     </section>
   </div>

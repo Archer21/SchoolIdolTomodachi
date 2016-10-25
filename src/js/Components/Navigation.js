@@ -8,7 +8,7 @@ let el = yo`
   <nav class="Navigation">
     <ul class="Navigation-list">
       <li class="Navigation-item">
-        <a href="#" class="Navigation-link">+Cards</a>
+        <a href="/cards" class="Navigation-link">+ Cards</a>
       </li>
       <li class="Navigation-item"><a href="#" class="Navigation-link">+ Idols</a></li>
       <li class="Navigation-item"><a href="#" class="Navigation-link">+ Songs</a></li>

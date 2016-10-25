@@ -4,11 +4,11 @@ const yo = require('yo-yo')
 
 const layout = require('./../layout')
 const aside = require('./../aside')
-const LayoutInfo = require('./Layout-info')
+const LayoutHome = require('./Layout-home')
 
 let el = yo`
   <div class="ContentContainer">
-    ${layout(LayoutInfo)}
+    ${layout(LayoutHome)}
     ${aside()}
   </div>
 `

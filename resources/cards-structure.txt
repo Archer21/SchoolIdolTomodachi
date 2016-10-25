@@ -1,0 +1,11 @@
+- Layout-cards
+  - div.Layout-bannerContainer
+    - div.Banner (have a background image)
+      - a.Banner-text
+    
+  - div.Layout-cardsContainer
+    - section.Cards
+      - article.Card
+        - a.Card-link
+          - div.Card-imageContainer
+            - img.Card-image

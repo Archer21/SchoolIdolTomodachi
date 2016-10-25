@@ -57,7 +57,7 @@ element -> normal tag
 
                   - ul.Comment-details .Menu
 
-  - section.Layout-right
+  - section.Layout-Right
 
     - div.Layout-favoriteContainer
       - div.FavoriteIdol

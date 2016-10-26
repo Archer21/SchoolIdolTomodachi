@@ -1,0 +1,62 @@
+- Components:
+  
+  - div.Banner (have a static background)
+    - a.Banner-text
+  
+  - section.IdolCard
+    - a.IdolCard-body
+        - div.IdolCard-unidolized
+          - img.IdolCard-image
+        - div.IdolCard-idolized
+          - img.IdolCard-image
+
+    - footer.IdolCard-footer
+      - a.IdolCard-addCard
+      
+      - div.IdolCard-info
+        - a.IdolCard-type
+        - a.IdolCard-avaible
+
+
+- SIDEBAR:
+
+  - div.SearchBox
+    - input[text].SearchBox-search
+
+  - .div.FilterBox
+    - button.FilterBox-button
+
+  - Rarity and Attribute can receive a title an a list of elements to render (elements come from constants)
+    
+  - div.StatBox
+    - div.StatBox-imageContainer
+      - img.StatBox-image
+
+    
+
+  - .RarityBox
+
+  - .AttributeBox
+
+  - div.CheckBox
+    - label.CheckBox-text
+    - input[checkbox].CheckBox-check
+    
+  - div.ChooseBox
+    - h3.ChooseBox-title
+    - div.ChooseBox-options
+      - span.ChooseBox-option
+
+  - div.SelectBox
+    - select.SelectBox-options
+      - option.SelectBox-option
+
+  - div.GroupBox
+    - div.GroupBox-group
+      -img.GroupBox-image
+
+
+  - .
+
+
+

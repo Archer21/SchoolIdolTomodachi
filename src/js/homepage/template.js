@@ -3,13 +3,13 @@
 const yo = require('yo-yo')
 
 const layout = require('./../layout')
-const aside = require('./../aside')
+const favIdol = require('./../Components/FavIdol')
 const LayoutHome = require('./Layout-home')
 
 let el = yo`
   <div class="ContentContainer">
     ${layout(LayoutHome)}
-    ${aside()}
+    ${favIdol()}
   </div>
 `
 

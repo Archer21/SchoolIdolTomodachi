@@ -1,11 +1,53 @@
+** SomeComponent **
+
 - Layout-cards
   - div.Layout-bannerContainer
-    - div.Banner (have a background image)
-      - a.Banner-text
+    - ** Banner **
     
   - div.Layout-cardsContainer
-    - section.Cards
-      - article.Card
-        - a.Card-link
-          - div.Card-imageContainer
-            - img.Card-image
+     section.Cards
+      - article.Cards-idolContainer
+        - ** IdolCard **
+
+
+  - div.FilterMenu
+    
+    - h3.FilterMenu-title
+    -**SearchBox**
+    
+    - h3.FilterMenu-title
+    - **FilterBo**
+    
+    - h5.FilterMenu-subTitle
+    - div.FilterIdol
+      - button.FilterIdol-button
+    
+    - h5.FilterMenu-subTitle
+    - **StatBox**
+    
+    - h5-FilterMenu-subTitle
+    - **StatBox**
+    - **CheckBox**
+    - button.Button
+   
+    - h5.subTitle
+    - **ChooseBox**
+  
+    - h5.subTitle
+    - **ChooseBox**
+  
+    -  h5.subTitle
+    - **ChooseBox**
+  
+    - h5.subTitle
+    - **SelectBox**
+
+    - h5.subTitle
+    - **ChooseBox**
+
+    - h5.subTitle
+    - **SelectBox**
+    
+    - h5.subTitle
+    - **ChooseBox**
+    - 

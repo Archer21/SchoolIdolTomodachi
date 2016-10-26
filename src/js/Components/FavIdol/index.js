@@ -2,7 +2,7 @@
 
 const yo = require('yo-yo')
 
-module.exports = function renderAside () {
+module.exports = function renderFavIdol () {
   return yo`
     <div class="Right">
       <div class="Right-favoriteIdolContainer">

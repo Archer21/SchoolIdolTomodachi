@@ -4,7 +4,9 @@ const yo = require('yo-yo')
 
 let el = yo`
   <div class="Logo">
-    <h1 class="Logo-title">School Idol Tomodachi</h1>
+    <a href="/" className="Logo-link">
+      <h1 class="Logo-title">School Idol Tomodachi</h1>
+    </a>
   </div>
 `
 

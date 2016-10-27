@@ -8,7 +8,7 @@ const Slider = require('./../../Components/Slider')
 const CommentBox = require('./../../Components/CommentBox')
 
 let el = yo`
-  <div class="Layout-leftContent">
+  <div class="Layout-homepage">
     <div class="Layout-info">
             
       <div class="Layout-infoBoxContainer">            

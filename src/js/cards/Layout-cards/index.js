@@ -3,6 +3,7 @@
 const yo = require('yo-yo')
 
 const Banner = require('./../../Components/Banner')
+const Cards = require('./../../Components/Cards')
 
 let el = yo`
   <div class="Layout-cards">
@@ -12,72 +13,7 @@ let el = yo`
     </div>
 
     <div class="Layout-cardsContainer">
-      <p class="Cards-match">57 cards match your search:</p>
-      <section className="Cards">
-        <article class="Cards-idolContainer">
-          <section class="IdolCard">
-            <a href="#" class="IdolCard-body">
-              
-              <div class="IdolCard-unidolized">
-                <img src="unidolizedCard.png" alt="unidolized" class="IdolCard-image"/>
-              </div>
-
-              <div class="IdolCard-idolized">
-                <img src="idolizedCard.png" alt="idolized" class="IdolCard-image"/>
-              </div>
-
-            </a>
-          </section>
-        </article>
-
-        <article class="Cards-idolContainer">
-          <section class="IdolCard">
-            <a href="#" class="IdolCard-body">
-              
-              <div class="IdolCard-unidolized">
-                <img src="unidolizedCard.png" alt="unidolized" class="IdolCard-image"/>
-              </div>
-
-              <div class="IdolCard-idolized">
-                <img src="idolizedCard.png" alt="idolized" class="IdolCard-image"/>
-              </div>
-
-            </a>
-          </section>
-        </article>
-
-        <article class="Cards-idolContainer">
-          <section class="IdolCard">
-            <a href="#" class="IdolCard-body">
-              
-              <div class="IdolCard-unidolized">
-                <img src="unidolizedCard.png" alt="unidolized" class="IdolCard-image"/>
-              </div>
-
-              <div class="IdolCard-idolized">
-                <img src="idolizedCard.png" alt="idolized" class="IdolCard-image"/>
-              </div>
-
-            </a>
-          </section>
-        </article>
-
-        <article class="Cards-idolContainer">
-          <section class="IdolCard">
-            <a href="#" class="IdolCard-body">
-              
-              <div class="IdolCard-unidolized">
-                <img src="unidolizedCard.png" alt="unidolized" class="IdolCard-image"/>
-              </div>
-
-              <div class="IdolCard-idolized">
-                <img src="idolizedCard.png" alt="idolized" class="IdolCard-image"/>
-              </div>
-
-            </a>
-          </section>
-        </article>
-      </section>
+      ${Cards()}
     </div>
   </div>
 `

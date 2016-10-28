@@ -2,6 +2,8 @@
 
 const yo = require('yo-yo')
 
+const CONSTANTS = require('./../../constants')
+
 const SearchBox = require('./components/SearchBox')
 const FilterIdol = require('./components/FilterIdol')
 const StatBox = require('./components/StatBox')
@@ -29,8 +31,12 @@ module.exports = function renderFilterMenu () {
             </div>
 
             <div class="FilterBox-statBoxContainer box">
-              ${StatBox()}
-            </div>           
+              ${StatBox("Rarity", CONSTANTS.rarityIcons)}
+            </div>
+
+            <div class="FilterBox-statBoxContainer box">
+              ${StatBox("Attribute", CONSTANTS.attributeIcons)}
+            </div>
 
             <div class="FilterMenu-checkBoxContainer box">
               ${CheckBox()}

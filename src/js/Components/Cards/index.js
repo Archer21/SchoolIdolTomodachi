@@ -6,7 +6,7 @@ const IdolCard = require('./../IdolCard')
 
 module.exports = function Cards () {
   return yo`
-    <section className="Cards">
+    <section class="Cards">
       
         <article class="Cards-idolContainer">
           ${IdolCard()}

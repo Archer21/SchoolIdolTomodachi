@@ -16,7 +16,7 @@
     -**SearchBox**
     
     - h3.FilterMenu-title
-    - **FilterBo**
+    - **FilterBox**
     
     - h5.FilterMenu-subTitle
     - div.FilterIdol
@@ -43,7 +43,7 @@
     - **SelectBox**
 
     - h5.subTitle
-    - **ChooseBox**
+    - **GroupBox**
 
     - h5.subTitle
     - **SelectBox**

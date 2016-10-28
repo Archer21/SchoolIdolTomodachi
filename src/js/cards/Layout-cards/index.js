@@ -19,10 +19,3 @@ let el = yo`
 `
 
 module.exports = el
-
-// - section.IdolCard
-//   - a.IdolCard-body
-//     - div.IdolCard-unidolized
-//       - img.IdolCard-image
-//     - div.IdolCard-idolized
-//       - img.IdolCard-image

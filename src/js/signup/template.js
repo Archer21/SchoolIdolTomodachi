@@ -3,24 +3,24 @@
 const yo = require('yo-yo')
 
 let el = yo`
-  <div className="Layout-signup">
-    <div className="Signup">
-      <h2 className="Signup-title">Sign Up</h2>
+  <div class="Layout-signup">
+    <div class="Signup">
+      <h2 class="Signup-title">Sign Up</h2>
 
-      <form action="" className="Signup-form form">
-        <div className="Signup-inputContainer">
-          <label className="labelBox">Username</label>
-          <input type="text" className="Signup-username input" placeholder="Username"/>
+      <form action="" class="Signup-form form">
+        <div class="Signup-inputContainer">
+          <label class="labelBox">Username</label>
+          <input type="text" class="Signup-username input" placeholder="Username"/>
         </div>
         
-        <div className="Signup-inputContainer">
-          <label className="labelBox">Email address</label>
-          <input type="email" className="Signup-email input" placeholder="Email address"/>
+        <div class="Signup-inputContainer">
+          <label class="labelBox">Email address</label>
+          <input type="email" class="Signup-email input" placeholder="Email address"/>
         </div>
 
-        <div className="Signup-inputContainer">        
-          <label className="labelBox">Password</label>
-          <input type="password" className="Signup-password input" placeholder="Password"/>
+        <div class="Signup-inputContainer">        
+          <label class="labelBox">Password</label>
+          <input type="password" class="Signup-password input" placeholder="Password"/>
         </div>
       </form>
 

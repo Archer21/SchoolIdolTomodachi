@@ -15,17 +15,20 @@ let el = yo`
       <li class="Navigation-item"><a href="#" class="Navigation-link">+ Evens</a></li>
       <li class="Navigation-item"><a href="#" class="Navigation-link">+ Fun</a></li>
       <li class="Navigation-item"><a href="#" class="Navigation-link">+ Players</a></li>
-      <li class="Navigation-item Navigation-itemAvatar">
-        <a href="#" class="Navigation-link Navigation-itemAvatarLink">
-          <div class="Navigation-avatarContainer">
-            ${Avatar()}
-          </div>
-          <span class="Avatar-username">Archerx</span>
-        </a>
-      </li>
-      <li class="Navigation-item"><button class="Navigation-link Navigation-button">...</button></li>
+      <li class="Navigation-item"><a href="#" class="Navigation-link">+ Signin</a></li>
+      <li class="Navigation-item"><a href="#" class="Navigation-link">+ Signup</a></li>      
     </ul>
   </nav>
 `
 
 module.exports = el
+
+// <li class="Navigation-item Navigation-itemAvatar">
+//         <a href="#" class="Navigation-link Navigation-itemAvatarLink">
+//           <div class="Navigation-avatarContainer">
+//             ${Avatar()}
+//           </div>
+//           <span class="Avatar-username">Archerx</span>
+//         </a>
+//       </li>
+//       <li class="Navigation-item"><button class="Navigation-link Navigation-button">...</button></li>

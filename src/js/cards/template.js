@@ -7,7 +7,7 @@ const FilterMenu = require('./../Components/FilterMenu')
 const LayoutCards = require('./Layout-cards')
 
 let el = yo`
-  <div class="ContentContainer">
+  <div class="Container-cards">
     ${layout(LayoutCards)}
     ${FilterMenu()}
   </div>

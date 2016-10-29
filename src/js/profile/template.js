@@ -2,8 +2,18 @@
 
 const yo = require('yo-yo')
 
-let el = yo`
-  <div>Hola Archer</div>
-`
+const layout = require('./../layout')
 
-module.exports = el
+
+
+module.exports = function Profile (username) {
+  let el = yo`
+    <div>
+      Hola ${username}
+    </div>
+  `
+  
+  return yo`
+    ${layout(el)}
+  `
+}

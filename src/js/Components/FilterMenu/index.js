@@ -31,11 +31,11 @@ module.exports = function renderFilterMenu () {
             </div>
 
             <div class="FilterBox-statBoxContainer box">
-              ${StatBox("Rarity", CONSTANTS.rarityIcons)}
+              ${StatBox('Rarity', CONSTANTS.rarityIcons)}
             </div>
 
             <div class="FilterBox-statBoxContainer box">
-              ${StatBox("Attribute", CONSTANTS.attributeIcons)}
+              ${StatBox('Attribute', CONSTANTS.attributeIcons)}
             </div>
 
             <div class="FilterMenu-checkBoxContainer box">

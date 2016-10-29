@@ -1,7 +1,7 @@
 'use strict'
 
 const yo = require('yo-yo')
-const empty = require('empty-element') 
+const empty = require('empty-element')
 
 const Logo = require('./../Components/Logo')
 const Navigation = require('./../Components/Navigation')
@@ -13,7 +13,7 @@ module.exports = function Header (ctx, next) {
       ${Logo}
 
       <div class="Container-navigationContainer">
-        ${Navigation}
+        ${Navigation()}
       </div>  
     </header>
   `

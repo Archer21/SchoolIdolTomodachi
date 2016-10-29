@@ -7,13 +7,13 @@ var source = require('vinyl-source-stream')
 var rename = require('gulp-rename')
 var watchify = require('watchify')
 var standard = require('gulp-standard')
- 
+
 gulp.task('standard', function () {
-  return gulp.src(['./src/js/*'])
+  return gulp.src(['./src/js/profile/*.js'])
     .pipe(standard())
     .pipe(standard.reporter('default', {
       breakOnError: true,
-      quiet: true
+      quiet: false
     }))
 })
 
@@ -46,7 +46,8 @@ function compile (watch) {
     bundle.transform(babel, {presets: ['es2015']})
       .bundle()
       .on('error', function (err) {
-        return console.log(err); this.emit('end')
+        return console.log(err)
+        this.emit('end')
       })
       .pipe(source('index.js'))
       .pipe(rename('app.js'))
@@ -64,5 +65,5 @@ gulp.task('watch', function () {
   return compile(true)
 })
 
-gulp.task('default', ['standard', 'assets', 'styles', 'build'])
+gulp.task('default', ['assets', 'styles', 'build'])
 

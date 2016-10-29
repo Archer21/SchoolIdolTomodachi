@@ -5,7 +5,10 @@ const empty = require('empty-element')
 
 const template = require('./template')
 
-page('/profile/Archer', function () {
+const header = require('./../Middlewares/header')
+
+
+page('/profile/:username', header, function (ctx, next) {
   let layout = document.getElementById('layout-container')
-  empty(layout).appendChild(template)
+  empty(layout).appendChild(template(ctx.params.username))
 })

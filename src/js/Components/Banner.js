@@ -8,6 +8,6 @@ let el = yo`
       + Click this banner to discover the upcoming cards in EN!
     </span>
   </a>
-`  
+`
 
 module.exports = el

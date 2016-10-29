@@ -13,13 +13,13 @@ let el = yo`
       </div>
       <div class="InfoBox-producers line">
         <a href="#" class="InfoBox-producer">
-          <img src="producer.png" alt="Nyaaaaa" class="InfoBox-image">
+          <img src="/producer.png" alt="Nyaaaaa" class="InfoBox-image">
         </a>
         <a href="#" class="InfoBox-producer">
-          <img src="producer.png" alt="OtakuReborn" class="InfoBox-image">
+          <img src="/producer.png" alt="OtakuReborn" class="InfoBox-image">
         </a>
         <a href="#" class="InfoBox-producer">
-          <img src="producer.png" alt="nicoahegao" class="InfoBox-image">
+          <img src="/producer.png" alt="nicoahegao" class="InfoBox-image">
         </a>  
       </div>
     </div>              

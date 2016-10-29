@@ -6,5 +6,6 @@ require('./js/homepage')
 require('./js/cards')
 require('./js/signup')
 require('./js/signin')
+require('./js/profile')
 
 page()

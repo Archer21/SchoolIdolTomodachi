@@ -12,7 +12,7 @@ module.exports = function StatBox (title, icons) {
           icons.map(icon => {
             return yo`
               <div class="StatBox-imageContainer">
-                <img src="${icon}" alt="${icon}" class="StatBox-image"/>
+                <img src="/${icon}" alt="${icon}" class="StatBox-image"/>
               </div>
             `
           })
@@ -21,5 +21,4 @@ module.exports = function StatBox (title, icons) {
     </div>
   `
 }
-
 

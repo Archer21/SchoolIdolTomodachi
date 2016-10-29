@@ -16,6 +16,14 @@ app.get('/cards', (req, res) => {
   res.sendFile(`${__dirname}/views/index.html`)  
 })
 
+app.get('/signup', (req, res) => {
+  res.sendFile(`${__dirname}/views/index.html`)  
+})
+
+app.get('/signin', (req, res) => {
+  res.sendFile(`${__dirname}/views/index.html`)  
+})
+
 const server = http.createServer(app)
 
 server.listen(PORT, () => {

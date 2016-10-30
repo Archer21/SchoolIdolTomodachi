@@ -10,5 +10,5 @@ const header = require('./../Middlewares/header')
 
 page('/profile/:username', header, function (ctx, next) {
   let layout = document.getElementById('layout-container')
-  empty(layout).appendChild(template(ctx.params.username))
+  empty(layout).appendChild(template)
 })

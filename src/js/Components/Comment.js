@@ -14,7 +14,7 @@ module.exports = function Comment () {
         <ul class="Comment-details CommentMenu">
           <a href="#" class="CommentMenu-link">+ Like</a>
           <a href="#" class="CommentMenu-link">87</a>
-          <a href="#" class="CommentMenu-link">+ Write comment</a>
+          <a href="#" class="CommentMenu-link">+ Write Comment</a>
           <a href="#" class="CommentMenu-link">Comments</a>
           <a href="#" class="CommentMenu-link">+ Report</a>
         </ul>

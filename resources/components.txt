@@ -15,7 +15,7 @@
         - Avatar ( render the user avatar  )
         - Comment (
             user: name, comments
-            comment: date, description, liked, likes, 
+            Comment: date, description, liked, likes, 
           )
     
     - FollowBox

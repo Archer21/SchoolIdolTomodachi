@@ -1,0 +1,47 @@
+Structure:
+
+  - section.UserInfo
+    - div.UserInfo-body
+      - div.avatarContainer
+        - **Avatar**
+      - div.UserInfo-about
+        - pending implementation
+      - div.followContainer
+        - div.FollowBox
+          - a.Follow-follow.button
+          - span.Follow-followers
+          - span.Follow-following
+          - a.Follow-sendMessage.button
+
+    - div.UserInfo-goalsContainer
+      - ul.Goals
+        - li.Goals-item
+    
+    - footer.UserInfo-footer
+      - ul.UserInfo-userData
+        - li.UserInfo-dataItem
+
+  - section.AccountInfo
+    - header.AccountInfo-header
+      - h2.AccountInfo-username
+      - a.AccountInfo-reportUser
+
+    - div.AccountInfo-body
+      - div.AccountInfo-info
+        - div.AccountInfo-row
+          - span.AccountInfo-rowTitle
+          - span.AccountInfo-rowValue
+
+        - div.AccountInfo-idolContainer
+          - img.Idol
+    - footer.AccountInfo-footer
+      - AccountInf-menuContainer
+        - Menu.borderMenu
+        - AccountInfo-idolListContainer
+          - div.IdolList
+            - a.IdolList-link
+              - img.IdolList-image
+
+  - section.User-commentsContainer
+    - **Comment**
+    - **Comment**

@@ -7,8 +7,8 @@ const UserActivitie = require('./../UserActivitie')
 module.exports = yo`
 
   <div class="Layout-profile">
-    <div className="Layout-userInformation">
-      <section class="UserInfo">
+    <div className="UserInfo">
+      <section class="UserInfo-bio">
         <div class="UserInfo-body box">
           
           <div class="UserInfo-avatarContainer">
